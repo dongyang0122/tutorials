@@ -44,5 +44,5 @@ After model is trained, all related output files are saved in the **models** fol
 In each bundle algorithm, we provide an easy API for users to quickly update hyper-parameters in model training, inference, and validation. User can update any parameter at different levels in the configuration ".yaml" file by appending strings to the bash command starting with "--". The values after "--" would override the default values in the configurations. The following command shows a multi-gpu training example. During the actual model training, learning rate becomes 0.001, **num_images_per_batch** is increased to 6, and the momentum in optimizers  is updated to 0.99.
 
 ```bash
-torchrun --nnodes=1 --nproc_per_node=8 -m scripts.train run --config_file "['configs/hyper_parameters.json','configs/network.yaml','configs/transforms_train.json','configs/transforms_validate.json']  --learning_rate 0.001 --num_images_per_batch 6 --optimizer#momentum 0.99"
+torchrun --nnodes=1 --nproc_per_node=8 -m scripts.train run --config_file "['configs/hyper_parameters.json','configs/network.yaml','configs/transforms_train.json','configs/transforms_validate.json']"  --learning_rate 0.001 --num_images_per_batch 6 --optimizer#momentum 0.99
 ```
