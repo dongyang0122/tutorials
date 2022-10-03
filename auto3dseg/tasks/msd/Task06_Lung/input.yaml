@@ -1,0 +1,4 @@
+---
+modality: CT
+datalist: ./msd_task06_lung_folds.json
+dataroot: /workspace/data/msd/Task06_Lung

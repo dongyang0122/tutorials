@@ -1,0 +1,4 @@
+---
+modality: MRI
+datalist: ./msd_task02_heart_folds.json
+dataroot: /workspace/data/msd/Task02_Heart

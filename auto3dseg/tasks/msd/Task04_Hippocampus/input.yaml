@@ -1,0 +1,4 @@
+---
+modality: MRI
+datalist: ./msd_task04_hippocampus_folds.json
+dataroot: /workspace/data/msd/Task04_Hippocampus

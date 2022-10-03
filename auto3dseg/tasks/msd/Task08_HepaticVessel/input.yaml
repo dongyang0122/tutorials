@@ -1,0 +1,4 @@
+---
+modality: CT
+datalist: ./msd_task08_hepaticvessel_folds.json
+dataroot: /workspace/data/msd/Task08_HepaticVessel

@@ -1,0 +1,4 @@
+---
+modality: CT
+datalist: ./msd_task10_colon_folds.json
+dataroot: /workspace/data/msd/Task10_Colon

@@ -1,0 +1,4 @@
+---
+modality: CT
+datalist: ./msd_task03_liver_folds.json
+dataroot: /workspace/data/msd/Task03_Liver

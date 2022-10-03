@@ -1,0 +1,4 @@
+---
+modality: MRI
+datalist: ./msd_task01_braintumour_folds.json
+dataroot: /workspace/data/msd/Task01_BrainTumour

@@ -1,0 +1,4 @@
+---
+modality: CT
+datalist: ./msd_task07_pancreas_folds.json
+dataroot: /workspace/data/msd/Task07_Pancreas
